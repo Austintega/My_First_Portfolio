@@ -6,19 +6,35 @@
     <title>My Tweets Page</title>
 </head>
 <body>
-    <!-- Header -->
-    <h1>Welcome to My Tweets Page</h1>
-    <p>Here, you can find a tweet that I found interesting!</p>
+    <!-- Header with navigation -->
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
 
-    <!-- Embedded Tweet -->
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">Learning is a never-ending journey! Keep exploring, building, and improving every day.</p>
-        &mdash; ALX Africa (@ALX_Africa)
-        <a href="https://twitter.com/ALX_Africa/status/1425557312838393856?ref_src=twsrc%5Etfw">August 11, 2021</a>
-    </blockquote>
-    <script async src="https://platform.twitter.com/widgets.js"></script>
+    <!-- Main content -->
+    <main>
+        <article>
+            <h1>Welcome to My Tweets Page</h1>
+            <p>Here, you can find a tweet that I found interesting!</p>
 
-    <!-- Link to homepage -->
-    <p><a href="index.html">Go back to the homepage</a></p>
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Learning is a never-ending journey! Keep exploring, building, and improving every day.</p>
+                &mdash; ALX Africa (@ALX_Africa)
+                <a href="https://twitter.com/ALX_Africa/status/1425557312838393856?ref_src=twsrc%5Etfw">August 11, 2021</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js"></script>
+        </article>
+        <aside>
+            <p>Placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made by Austin Akpota - <a href="https://www.example.com" target="_blank">here</a>.</p>
+    </footer>
 </body>
 </html>
