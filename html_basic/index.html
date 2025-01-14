@@ -4,6 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Cool First Webpage</title>
+    <style>
+        /* Add some basic styling for the table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table th, table td {
+            border: 1px solid #ddd;
+            text-align: left;
+            padding: 8px;
+        }
+        table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
 </head>
 <body>
     <!-- Header Section (Navigation) -->
@@ -26,6 +46,40 @@
             <p>This webpage demonstrates the basics of HTML, including headings, paragraphs, and links.</p>
             <h2>Why I Created This Web Page</h2>
             <p>This project is part of my learning journey with ALX.</p>
+
+            <!-- Added table with learners' information -->
+            <h2>Meet the Learners</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>25</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <td>Emily</td>
+                        <td>28</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr>
+                        <td>Michael</td>
+                        <td>32</td>
+                        <td>Australia</td>
+                    </tr>
+                    <tr>
+                        <td>Sophia</td>
+                        <td>21</td>
+                        <td>UK</td>
+                    </tr>
+                </tbody>
+            </table>
         </article>
 
         <!-- Aside Section (Placeholder) -->
